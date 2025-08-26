@@ -1,0 +1,38 @@
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: archive.org_bot
+Disallow: /
+
+User-agent: Wayback Machine
+Disallow: /
+
+# Block common SEO scrapers / spammy bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+# Allow Google and Bing
+User-agent: Googlebot
+Disallow:
+
+User-agent: Bingbot
+Disallow:
+
+# Default rule: block nothing else
+User-agent: *
+Disallow:
